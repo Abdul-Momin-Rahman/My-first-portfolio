@@ -100,8 +100,118 @@ nav ul li a{
 }
 
 
-.banner-image{
+.banner-image img{
     max-width: 585px;
     vertical-align: middle;
 
+}
+
+#About_me_section{
+    padding-top: 130px;
+
+}
+
+.about_me_content{
+    width: 71%;
+    max-width: 1140px;
+    padding: 131px 156px;
+    background-color: #FFF8F3 ;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.about_me_content h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.about_me_content p{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
+.about_me_content ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+.about_me_content ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about_me_content ul li span{
+    display: block;
+    font-weight: bold;
+}
+
+#what{
+    padding-top: 130px;
+}
+
+.what_content{
+    width: 71%;
+    max-width: 1140px;
+    padding: 0px 156px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.what_content h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.what_content p{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.skills{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.skills .card{
+    max-width: 267px;
+    padding: 30px;
+    border: 1px solid red;
+    box-shadow: 0 6px 50px 0 #00000028;
+}
+
+.card img{
+    max-width: 44px;
+    margin-bottom: 30px ;
+}
+
+.card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
 }
